@@ -1,0 +1,114 @@
+Khamidov, [6/1/2025 12:08 AM]
+Here is a clear and easy-to-understand presentation speech based on your projects and final slides. It’s written in simple English and includes explanations, techniques, reasons, and results for both classification and regression tasks.
+
+---
+
+### ✅ Speech for Presentation (approx. 15 minutes)
+
+---
+
+Slide 1: Introduction
+
+Good morning everyone.
+My name is Khamidov Mirzakalonboy, and today I’ll share my machine learning projects where I used two real-world datasets.
+
+The goal was to:
+
+* Predict insurance claim approval (classification)
+* Predict apartment prices (regression)
+
+I applied different machine learning methods, handled missing values, and used encoding techniques. Let’s start with understanding the data.
+
+---
+
+Slide 2–4: Data Understanding
+
+Insurance Dataset:
+
+* Had around 57,000 records
+* The target column was claim_status (0 = not approved, 1 = approved)
+* Challenge: It was very imbalanced – only 1.4% of people had approved claims
+* Some columns like agent_id had thousands of unique values – we call this high cardinality
+
+Apartment Dataset:
+
+* Contained 156,000 training rows and 39,000 test rows
+* The goal was to predict price_z – the apartment price
+* There were missing values in some columns like build_mat, cond_class, and has_lift
+* Features included size, number of rooms, location, year built, nearby services, etc.
+
+---
+
+Slide 5–6: Preprocessing
+
+Let me explain how I prepared the data.
+
+For Insurance:
+* I used Target Encoding for variables with many unique values like agent_id and entity_id. This helps convert categories into useful numbers bas
+ed on the average of the target.
+* For simple categorical columns like gender or channel, I used One-Hot Encoding
+* The big issue was class imbalance. I fixed it using SMOTE, a technique that creates synthetic examples to make the dataset 50% approved and 50% not approved.
+* After all this, we had a clean and balanced dataset.
+
+For Apartments:
+
+* For missing values: I used mean for numbers and most frequent for categories.
+* I used OneHotEncoder for variables like obj_type and own_type
+* Applied StandardScaler to normalize numerical columns.
+* I also removed unnecessary columns like unit_id before modeling.
+* I checked the correlation of features with price_z. Variables like market_volatility were highly correlated with price, while others like crime_rate were negatively related.
+
+---
+
+Slide 7–8: Modeling and Results
+
+Insurance Project (Classification):
+
+* I tried several models: Logistic Regression, KNN, XGBoost, and Random Forest.
+* Best model was Random Forest with an AUC score of 0.836
+* This model worked best because it handles noisy and imbalanced data very well and captures complex interactions between features.
+
+Apartment Project (Regression):
+
+* I tested Linear Regression, Ridge, Lasso, ElasticNet, XGBoost, and LightGBM
+* Best model was XGBoost with:
+
+  * R² = 0.9513
+  * MAE ≈ 70,400
+  * RMSE ≈ 96,280
+
+These are very good results – R² above 0.95 means the model explains 95% of the price variation, which is excellent in real-world applications.
+
+---
+
+Slide 9: What Did We Learn?
+
+From the classification project:
+
+* We improved from less than 2% positive cases to a well-performing model with AUC > 0.83
+* SMOTE was critical in balancing the data
+
+From the regression project:
+
+* We accurately predicted apartment prices using variables like size, location, and infrastructure
+* XGBoost captured non-linear relationships and was very robust
+
+We also saved predictions into .csv files:
+
+* For insurance: final_predictions_insurance.csv
+* For apartments: final_predictions_apartments.csv
+
+---
+
+Slide 10: Conclusion
+
+To summarize:
+
+* Good data preprocessing is key to great model results
+* Feature encoding and balancing techniques make a huge difference
+* Ensemble models like Random Forest and XGBoost performed better than basic ones
+* We handled challenges like missing values, high cardinality, and class imbalance effectively
+
+Thank you for listening! I'm happy to answer any questions.
+
+---

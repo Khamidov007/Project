@@ -1,0 +1,214 @@
+Slide 1
+
+This paper, written by George Bulman and Robert Fairlie, reviews how technology — including computers, software, and the Internet — affects education. It asks whether large investments in ICT by governments and schools actually improve learning outcomes.
+
+Slide 2 
+
+The authors use the education production function model. Academic achievement is explained by multiple factors: family background, school inputs, and technology use. ICT can act as a supplement to teaching (adding more learning opportunities) or as a substitute (taking time away from traditional instruction). This theoretical framework explains why the effects of ICT are sometimes positive, sometimes neutral, and sometimes even negative.
+
+Slide 3
+The paper uses international survey data and experimental studies. PISA data gives a global snapshot of access. National surveys in the US and EU track ICT adoption over time. Randomized controlled trials and policy evaluations provide causal evidence, such as Israel’s computer subsidies, Peru’s laptop program, and India’s CAI math intervention
+
+
+SLide 4
+
+Table 1 shows computer access across countries. In the US and UK, there was almost one computer per student. But in countries like Turkey and Vietnam, there were fewer than 0.3 computers per student. Interpretation: technology access is very unequal, with developing countries far behind. This inequality strongly affects whether technology can close or widen educational gaps.
+
+Slide 5
+
+Table 3 highlights home access. In Denmark, Finland, and the US, nearly all students had computers and Internet at home. In contrast, only 26% of Indonesian students and 40% of Vietnamese students had computers at home. Even within the US, low-income students had much lower access than high-income students. This shows how the digital divide reinforces educational inequality.
+
+SLide 6
+
+These figures show how access expanded in the US. In 1984, schools had one computer for every 125 students. By 2008, there was one for every three students, and nearly all had Internet access. At home, ownership grew from 15% in 1984 to 80% in 2012. The US invested massively in ICT, raising the question: did this investment improve learning outcomes
+
+
+Slide 7
+
+Table  summarizes evidence from major ICT programs. Results are disappointing:
+
+Israel: no gains, sometimes negative.
+
+Netherlands: no effects.
+
+US E-rate: Internet connections rose, but test scores did not improve.
+
+Peru: one-laptop-per-child program → no effect on dropout or grades.
+Conclusion: Large ICT investments in schools often failed to improve test scores.
+
+
+Slide 8
+
+Table 5 reviews CAI studies. Results are more promising in math:
+
+In India, CAI led to large improvements in math scores.
+
+In the US, algebra software improved learning.
+
+However, language and reading software showed almost no impact.
+Interpretation: CAI can help, but effects depend heavily on subject area and program quality.
+
+
+SLide 9
+
+Early studies suggested that students with home computers performed much better. But these studies were biased — wealthier families both bought computers and invested more in education. Later randomized trials showed little or no effect of giving students computers. Sometimes, computers even reduced test scores, as students used them for games and entertainment instead of studying
+
+
+Slide 10 
+
+The authors concluded that ICT alone does not improve learning. Results are mixed: CAI sometimes helps in math, but overall, access does not translate into better achievement. The main lesson: technology must be integrated carefully into education. Simply handing out computers does not work.
+
+
+Slide 11
+
+In 2016, technology looked like a weak tool for education. But after COVID-19, schools worldwide relied on ICT for survival. AI transformed education by offering personalized learning support. Today, ICT is not optional — it is the backbone of education. Unlike in 2016, now we can say that technology, when used effectively, does improve learning outcomes.
+
+
+
+
+
+----------------------------------------------by chat
+
+Got it ✅ — here’s your **ready-to-read full speech**, organized slide by slide (1–10).
+This is what you can say during the presentation — clear, detailed, and based directly on the paper plus your final conclusion.
+
+---
+
+# 🎤 Presentation Speech (Slides 1–10)
+
+---
+
+### **Slide 1 – Title**
+
+“Good \[morning/afternoon], today I am presenting the NBER Working Paper *Technology and Education: Computers, Software, and the Internet* by George Bulman and Robert Fairlie, published in 2016.
+
+This paper investigates a simple but important question: Does investing in computers, software, and Internet access actually improve education outcomes? Governments worldwide have spent billions on ICT in schools, and this paper tries to evaluate whether these investments paid off.”
+
+---
+
+### **Slide 2 – Models & Methods**
+
+“The authors use an education production function model, which is a standard econometric framework in education economics.
+
+In this model, student achievement depends on several inputs: student background, past test scores, school resources, teacher quality, and computer or Internet resources.
+
+A key question is whether ICT acts as a **supplement** to traditional teaching — adding extra resources — or as a **substitute** that might reduce teacher-student interaction.
+
+To analyze this, the authors rely on econometric approaches:
+
+* **OLS regressions**, which show correlations but are biased by family background.
+* **Difference-in-Differences**, using natural experiments like computer subsidy policies.
+* **Randomized Controlled Trials (RCTs)**, which give the most reliable causal evidence.
+
+The limitation is that these models assume ICT use is uniform. They do not capture the quality of how technology is used. Modern machine learning models could better capture heterogeneity, but in 2016 the authors stuck with classical econometrics.”
+
+---
+
+### **Slide 3 – Data Sources**
+
+“The data comes from a combination of global surveys and specific experiments:
+
+* OECD’s PISA 2012, which provides international test score data along with information on ICT access.
+* The European Commission 2012 survey on ICT in schools across Europe.
+* US Census Bureau and NCES data, which track how households and schools adopted computers and Internet over time.
+* And a range of randomized experiments and policy evaluations from countries including Israel, the Netherlands, Peru, India, and the United States.
+
+Together, these sources provide both global descriptive patterns and causal evaluations of ICT programs.
+
+But there are weaknesses: PISA data is only cross-sectional and cannot establish causality. Policy evaluations are often short-term and measure access, not quality of use. This is a recurring limitation in the literature.”
+
+---
+
+### **Slide 4 – Global School Access (Table 1)**
+
+“Table 1 shows the number of computers per student in 2012.
+
+In the US, there were 0.95 computers per student, almost one per child. In the UK, it was slightly higher at 1.02. But in Germany it was only 0.65, Japan 0.56, and in developing countries like Turkey and Vietnam, closer to 0.25.
+
+This highlights a clear global digital divide. Wealthy countries provided nearly universal school computer access, while poorer countries were far behind.
+
+The authors use this variation in cross-country comparisons and policy evaluations, but the problem is that simply having access does not guarantee effective use. The econometric models used treat access as the main variable, but they cannot measure whether computers were used in meaningful ways for learning.”
+
+---
+
+### **Slide 5 – Home Access (Table 3)**
+
+“Table 3 shows access to computers and Internet at home.
+
+In Denmark, Finland, and the US, nearly all students had Internet access at home, over 95 percent. But in Brazil only 72 percent did, in Mexico 57 percent, and in Indonesia only 26 percent. Vietnam was at 40 percent.
+
+Even within the United States, access was unequal: 98 percent of students in high-income families had home computers, compared to only 67 percent of students in low-income families.
+
+The interpretation is that technology access mirrors existing inequalities. Families who are already advantaged are the ones with the best ICT access, while poorer students are left behind.
+
+The authors rely on regression models to link home computers to academic outcomes, but these estimates are biased because richer families both buy computers and support their children in many other ways. Later RCTs showed that when computers were randomly given to low-income students, the effect on learning was close to zero.”
+
+---
+
+### **Slide 6 – Historical Trends (Figures 1 & 2)**
+
+“Figures 1 and 2 show historical trends in the United States.
+
+In 1984, schools had only one computer for every 125 students. By 2008, there was one computer for every three students, and nearly all were connected to the Internet.
+
+At home, the story is similar: in 1984, just 15 percent of households had a computer. By 2012, over 80 percent did, and Internet access grew just as rapidly after the mid-1990s.
+
+This shows the massive growth in technology access in both schools and homes. The key question raised is whether all of this investment translated into improved educational outcomes.
+
+Methodologically, these patterns were studied using difference-in-differences around policy rollouts, but these designs assume that without ICT adoption, test score trends would have been identical. That is a strong assumption that may not hold.”
+
+---
+
+### **Slide 7 – ICT in Schools (Table 4)**
+
+“Table 4 summarizes evidence from large ICT policies.
+
+* In Israel, subsidies for school computers produced no measurable gains, sometimes even negative effects.
+* In the Netherlands, results were also insignificant.
+* In the US, the E-Rate program increased school Internet connections dramatically, but test scores did not improve.
+* In Peru, the famous one-laptop-per-child program had no effect on dropout rates, grade repetition, or test scores.
+
+The conclusion is clear: large-scale ICT investments in schools often had no impact on measured achievement.
+
+The econometric models used here were mostly difference-in-differences and OLS with policy changes. The mistake is that these models assume computers were used effectively by default. In reality, many schools received hardware but did not integrate it into teaching. A better model would have separated access from effective usage.”
+
+---
+
+### **Slide 8 – Computer-Assisted Instruction (Table 5)**
+
+“Table 5 reviews studies of specific software programs, known as computer-assisted instruction or CAI.
+
+Results are more promising here, but only in certain contexts.
+
+* In India, CAI programs led to large math improvements, although the effects faded later.
+* In the US, algebra-focused software improved test scores.
+* But most other programs, especially in language and reading, showed no measurable effects.
+
+The key difference is that CAI targets specific skills and is used directly in instruction, rather than just providing access to computers.
+
+The methodology here is stronger, as many of these studies are randomized controlled trials. However, the limitation is that most trials were short-term and did not measure broader outcomes such as critical thinking or digital skills. If we applied machine learning to usage data today, we could better understand which types of students benefit most from CAI.”
+
+---
+
+### **Slide 9 – Home Computers and Outcomes**
+
+“Earlier studies suggested that students with home computers performed better in school. But these results were biased, because richer families were both more likely to buy computers and to support education in other ways.
+
+Later randomized experiments corrected this. In Romania, giving students computers did not improve grades and sometimes even lowered them. In the US, a similar result: no effect on test scores. In Peru, again, no improvement.
+
+The interpretation is that without structured educational use, home computers are as likely to distract as to support learning. This is one of the clearest findings of the paper: access by itself is not enough.”
+
+---
+
+### **Slide 10 – Authors’ Conclusion and My Reflection**
+
+“The authors concluded in 2016 that ICT investments had mixed and often disappointing effects. Simply providing computers, either in schools or at home, did not reliably improve learning outcomes. CAI had some promise, especially in math and in developing countries, but overall the evidence was weak.
+
+Their conclusion was that technology is not a silver bullet for education. The effects are highly dependent on how technology is integrated and used.
+
+My own conclusion today is different. In 2016, technology looked like a weak tool for education. But after COVID-19, schools worldwide relied on ICT for survival. Online platforms became the foundation of learning.
+
+And now, with AI tools like ChatGPT and adaptive tutoring systems, technology provides personalized support for millions of students. ICT is no longer optional — it is the backbone of education. Unlike in 2016, today we can say that technology, when used effectively, does improve learning outcomes. AI has become a central study tool, and online resources are more important than ever for education.”
+
+---
+
